@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842D87022909126F007D5543 /* RickyMortyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D87012909126F007D5543 /* RickyMortyModel.swift */; };
+		842D870429091788007D5543 /* RickyMortyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D870329091788007D5543 /* RickyMortyService.swift */; };
+		842D870729091AFB007D5543 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 842D870629091AFB007D5543 /* Alamofire */; };
+		842D870A29091B3B007D5543 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 842D870929091B3B007D5543 /* AlamofireImage */; };
+		842D870C29092417007D5543 /* RickyMortyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D870B29092417007D5543 /* RickyMortyViewModel.swift */; };
+		842D870F29096C9B007D5543 /* RickyMortyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D870E29096C9B007D5543 /* RickyMortyTableViewCell.swift */; };
 		847EEBAC29085F4800978964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EEBAB29085F4800978964 /* AppDelegate.swift */; };
 		847EEBAE29085F4800978964 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EEBAD29085F4800978964 /* SceneDelegate.swift */; };
 		847EEBB029085F4800978964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EEBAF29085F4800978964 /* ViewController.swift */; };
 		847EEBB329085F4800978964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847EEBB129085F4800978964 /* Main.storyboard */; };
 		847EEBB529085F4A00978964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847EEBB429085F4A00978964 /* Assets.xcassets */; };
 		847EEBB829085F4A00978964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847EEBB629085F4A00978964 /* LaunchScreen.storyboard */; };
+		847EEBC7290860D600978964 /* RickyMortyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847EEBC6290860D600978964 /* RickyMortyViewController.swift */; };
+		847EEBCA290861DC00978964 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 847EEBC9290861DC00978964 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		842D87012909126F007D5543 /* RickyMortyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortyModel.swift; sourceTree = "<group>"; };
+		842D870329091788007D5543 /* RickyMortyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortyService.swift; sourceTree = "<group>"; };
+		842D870B29092417007D5543 /* RickyMortyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortyViewModel.swift; sourceTree = "<group>"; };
+		842D870E29096C9B007D5543 /* RickyMortyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortyTableViewCell.swift; sourceTree = "<group>"; };
 		847EEBA829085F4800978964 /* MVVMProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847EEBAB29085F4800978964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847EEBAD29085F4800978964 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,7 @@
 		847EEBB429085F4A00978964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847EEBB729085F4A00978964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847EEBB929085F4A00978964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847EEBC6290860D600978964 /* RickyMortyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickyMortyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +44,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847EEBCA290861DC00978964 /* SnapKit in Frameworks */,
+				842D870729091AFB007D5543 /* Alamofire in Frameworks */,
+				842D870A29091B3B007D5543 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		842D870D29096C54007D5543 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				842D870E29096C9B007D5543 /* RickyMortyTableViewCell.swift */,
+				847EEBC6290860D600978964 /* RickyMortyViewController.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		847EEB9F29085F4800978964 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +81,75 @@
 		847EEBAA29085F4800978964 /* MVVMProject */ = {
 			isa = PBXGroup;
 			children = (
-				847EEBAB29085F4800978964 /* AppDelegate.swift */,
-				847EEBAD29085F4800978964 /* SceneDelegate.swift */,
-				847EEBAF29085F4800978964 /* ViewController.swift */,
-				847EEBB129085F4800978964 /* Main.storyboard */,
-				847EEBB429085F4A00978964 /* Assets.xcassets */,
+				847EEBC029085FF100978964 /* Features */,
+				847EEBBF29085FCB00978964 /* Core */,
 				847EEBB629085F4A00978964 /* LaunchScreen.storyboard */,
 				847EEBB929085F4A00978964 /* Info.plist */,
 			);
 			path = MVVMProject;
+			sourceTree = "<group>";
+		};
+		847EEBBF29085FCB00978964 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				847EEBB129085F4800978964 /* Main.storyboard */,
+				847EEBAF29085F4800978964 /* ViewController.swift */,
+				847EEBB429085F4A00978964 /* Assets.xcassets */,
+				847EEBAD29085F4800978964 /* SceneDelegate.swift */,
+				847EEBAB29085F4800978964 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		847EEBC029085FF100978964 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				847EEBC12908602D00978964 /* RickyMorty */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		847EEBC12908602D00978964 /* RickyMorty */ = {
+			isa = PBXGroup;
+			children = (
+				847EEBC52908608600978964 /* Service */,
+				847EEBC42908607E00978964 /* Model */,
+				847EEBC32908606F00978964 /* ViewModel */,
+				847EEBC22908606800978964 /* View */,
+			);
+			path = RickyMorty;
+			sourceTree = "<group>";
+		};
+		847EEBC22908606800978964 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				842D870D29096C54007D5543 /* TableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		847EEBC32908606F00978964 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				842D870B29092417007D5543 /* RickyMortyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		847EEBC42908607E00978964 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				842D87012909126F007D5543 /* RickyMortyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		847EEBC52908608600978964 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				842D870329091788007D5543 /* RickyMortyService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +168,11 @@
 			dependencies = (
 			);
 			name = MVVMProject;
+			packageProductDependencies = (
+				847EEBC9290861DC00978964 /* SnapKit */,
+				842D870629091AFB007D5543 /* Alamofire */,
+				842D870929091B3B007D5543 /* AlamofireImage */,
+			);
 			productName = MVVMProject;
 			productReference = 847EEBA829085F4800978964 /* MVVMProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +201,11 @@
 				Base,
 			);
 			mainGroup = 847EEB9F29085F4800978964;
+			packageReferences = (
+				847EEBC8290861DC00978964 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				842D870529091AFB007D5543 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				842D870829091B3B007D5543 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 847EEBA929085F4800978964 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +233,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842D870F29096C9B007D5543 /* RickyMortyTableViewCell.swift in Sources */,
+				842D870C29092417007D5543 /* RickyMortyViewModel.swift in Sources */,
+				842D87022909126F007D5543 /* RickyMortyModel.swift in Sources */,
 				847EEBB029085F4800978964 /* ViewController.swift in Sources */,
+				842D870429091788007D5543 /* RickyMortyService.swift in Sources */,
+				847EEBC7290860D600978964 /* RickyMortyViewController.swift in Sources */,
 				847EEBAC29085F4800978964 /* AppDelegate.swift in Sources */,
 				847EEBAE29085F4800978964 /* SceneDelegate.swift in Sources */,
 			);
@@ -358,6 +458,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		842D870529091AFB007D5543 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		842D870829091B3B007D5543 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		847EEBC8290861DC00978964 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		842D870629091AFB007D5543 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 842D870529091AFB007D5543 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		842D870929091B3B007D5543 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 842D870829091B3B007D5543 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+		847EEBC9290861DC00978964 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 847EEBC8290861DC00978964 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 847EEBA029085F4800978964 /* Project object */;
 }
